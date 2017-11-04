@@ -6,13 +6,13 @@ class Ship
     @type = params[:type]
     @booty = params[:booty]
     SHIPS << self
-  end 
+  end
 
-  def self.all 
+  def self.all
     SHIPS
-  end 
+  end
 
-  def self.clear 
+  def self.clear
     SHIPS.clear
   end 
 end
